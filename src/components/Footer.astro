@@ -1,0 +1,24 @@
+---
+import Facebook from "./social_media/Facebook.astro";
+import Instagram from "./social_media/Instagram.astro";
+import Youtube from "./social_media/Youtube.astro";
+import X from "./social_media/X.astro"
+import TomNavLogo from "./TomNavLogo.astro";
+
+---
+<footer class="w-full bg-accent flex flex-row items-center justify-between py-5 px-24">
+    <div>
+        <TomNavLogo/>
+    </div>
+    <div class="flex flex-row gap-x-48 text-white">
+        <a>@realty | Powered by Dshh</a>
+        <a>Privacidad</a>
+        <a>Terminos y Condiciones</a>
+    </div>
+    <div class="flex flex-row gap-x-4">
+        <Facebook/>
+        <Instagram/>
+        <X/>
+        <Youtube/>
+    </div>
+</footer>

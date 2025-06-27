@@ -1,0 +1,8 @@
+---
+interface Props {
+    nameButton: string
+}
+
+const { nameButton } = Astro.props
+---
+<button class="bg-primary text-white font-khmer text-2xl px-5 py-3 rounded-3xl hover:bg-primary-light transition-colors duration-200">{nameButton}</button>
